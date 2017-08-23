@@ -1,8 +1,9 @@
-//This class provides logic for inbound just-in-time provisioning of single sign-on users in your Salesforce organization.
+
 global class JitHandler implements Auth.SamlJitHandler {
     
     // 8-23-17
     // J Dority
+    //This class provides logic for inbound just-in-time provisioning of single sign-on users in your Salesforce organization.
     // SAML Assert takes on user id of Apex Class "run as user" - current user is really administrator
     // Custom Attributes don't allow you to pass all the required fields (Local, Language, TimeZone, EmailEncoding which all happen to be pick lists)
     // If user already exists and is inactive, you must activate the user first or assertion fails
