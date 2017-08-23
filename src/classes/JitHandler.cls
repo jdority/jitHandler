@@ -1,7 +1,7 @@
 
 global class JitHandler implements Auth.SamlJitHandler {
     
-    // 8-23-17
+    // 7-28-17
     // J Dority
     //This class provides logic for inbound just-in-time provisioning of single sign-on users in your Salesforce organization.
     // SAML Assert takes on user id of Apex Class "run as user" - current user is really administrator
